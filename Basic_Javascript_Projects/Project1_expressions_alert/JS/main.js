@@ -21,7 +21,9 @@ document.write("<br>");
 document.write(M);
 document.write("<br>");
 document.write("3+3");
-
+function displayDate() {
+    document.getElementById("test").innerHTML= Date();
+}
 document.write(A);
 
 document.write(W);
