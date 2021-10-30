@@ -13,3 +13,7 @@ function myFunction() {
     sentence += " a lot from this program!";
     document.getElementById("Concatenate").innerHTML=sentence;
 }
+
+var M="Mike and" + " Mallory<br>"
+
+document.write(M)
