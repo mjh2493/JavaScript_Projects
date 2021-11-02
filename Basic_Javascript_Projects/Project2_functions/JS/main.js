@@ -16,4 +16,10 @@ function myFunction() {
 
 var M="Mike and" + " Mallory<br>"
 
-document.write(M)
+
+function showMessage(firstName, lastName) {
+    var finalMessage=("Hi " + firstName + " " + lastName);
+    document.getElementById("Message").innerHTML=finalMessage;
+}
+
+showMessage('Mallory', 'Humphries');
