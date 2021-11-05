@@ -13,11 +13,6 @@ function add_num2() {
 add_num();
 add_num2();
 
-// console.log
-function add_num() {
-    document.write(y+12);
-    console.log(y+12);
-}
 
 // if statements 
 function date_function() {
