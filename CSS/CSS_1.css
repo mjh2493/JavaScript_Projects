@@ -1,0 +1,31 @@
+input {
+    width:75%;
+}
+ input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid green;
+ }
+
+ input[type=submit] {
+     background-color: green;
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     margin: 4px 2px;
+     cursor: pointer;
+ }
+
+ .header {
+     color: green;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: green;
+    font-weight: 300;
+}
