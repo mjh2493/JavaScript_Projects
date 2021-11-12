@@ -28,6 +28,7 @@ function getReceipt() {
     getTopping(runningTotal,text1);
 };
 
+// pulls how many toppings were selected and adds to total price at the end
 function getTopping(runningTotal, text1) {
     var toppingTotal=0;
     var selectedTopping=[];
