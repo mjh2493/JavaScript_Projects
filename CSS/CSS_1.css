@@ -18,7 +18,7 @@ input {
      cursor: pointer;
  }
 
- .header {
+h1 {
      color: green;
      font-family: Arial, Helvetica, sans-serif;
  }
@@ -28,4 +28,24 @@ label {
     font-size: 16px;
     color: green;
     font-weight: 300;
+}
+
+@keyframes move-over {
+    from {left: -100vw;}
+    to {left:0vw;}
+}
+
+h2 {
+    animation: move-over 3.75s;
+    -webkit-animation: move-over 3.75s;
+}
+
+@keyframes zoomin {
+    0% {transform: scale(1,1);}
+    50% {transform: scale(1.2,1.2);}
+    100% {transform:scale(1,1);}
+}
+
+.image-test {
+    animation: zoomin 15s forwards;
 }

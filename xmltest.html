@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="XML_Example"></p>
+    <script>
+        var XML_Parser, XML_Document;
+
+        var Animal = "<Animal>" +
+            "<type>Dog</type>" +
+            "<breed>Chiweenie</breed>" +
+            "<color>Brown</color>" +
+            "<name>Waffle</name>" +
+            "</Animal>";
+        XML_Parser= new DOMParser();
+
+        XML_Document= XML_Parser.parseFromString(Animal, "text/xml");
+
+        document.getElementById("XML_Example").innerHTML= XML_Document.getElementsByTagName("breed")[0].childNodes[0].nodeValue;
+    </script>
+    </body>
+</html>

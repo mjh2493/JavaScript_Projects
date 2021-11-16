@@ -8,6 +8,12 @@
         <script src="js/tictactoe.js"></script>
     </head>
     <body id="body">
+        <script>
+            document.body.classList.add('fade-out');
+            window.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.remove('fade-out');
+            })
+        </script>
         <!-- this container is needed to overlay our canvas over our table-->
         <h1>Time to Play Tic Tac Toe! Are you Ready???</h1>
         <div class="center-container">
